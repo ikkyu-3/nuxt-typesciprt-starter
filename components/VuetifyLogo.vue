@@ -7,7 +7,10 @@
 </template>
 
 <script lang="ts">
-export default {}
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class VuetifyLogo extends Vue {}
 </script>
 
 <style>
