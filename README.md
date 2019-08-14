@@ -1,24 +1,5 @@
 # nuxt-typescript-starter
 
-Nuxt.js × Vuetify × TypeScript ×  Storybook × Jestを使用したサンプルプロジェクト
+Nuxt.js × Vuetify × TypeScript × ESLint × Prettier × Storybook × Jestを使用して開発環境を構築するサンプルプロジェクト
 
-> My groovy Nuxt.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+このブログで[こちら](https://ikkyu.hateblo.jp/entry/2019/08/14/233538)作成したプロジェクトになります。
