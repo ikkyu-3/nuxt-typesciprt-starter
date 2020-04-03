@@ -1,5 +1,22 @@
-# nuxt-typescript-starter
+# nuxt-typesciprt-starter
 
-Nuxt.js × Vuetify × TypeScript × ESLint × Prettier × Storybook × Jestを使用して開発環境を構築するサンプルプロジェクト
+> My exceptional Nuxt.js project
 
-この[ブログ記事](https://ikkyu.hateblo.jp/entry/2019/08/14/233538)で作成したプロジェクトになります。
+## Build Setup
+
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
