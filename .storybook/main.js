@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   stories: ['../**/*.stories.ts'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
@@ -16,6 +18,10 @@ module.exports = {
       ]
     })
     config.resolve.extensions.push('.ts')
+
+    const rootPath = path.resolve(__dirname, '..')
+    config.resolve.alias['@'] = rootPath
+    config.resolve.alias['~'] = rootPath
 
     return config
   }
